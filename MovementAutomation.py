@@ -3,6 +3,8 @@ import random
 import pyautogui as cursor
 
 def movementAutomation():
+  cursor.FAILSAFE = False
+
   x, y = cursor.size()
 
   cursor.countdown(5)
