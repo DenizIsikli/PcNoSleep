@@ -14,7 +14,7 @@ def movementAutomation():
     x1 = random.randint(0, x)
     y1 = random.randint(0, y)
 
-    cursor.moveTo(x1, y1)
+    cursor.moveTo(x1, y1, .005)
     cursorInfo = cursor.getInfo()
 
     print(cursorInfo)
