@@ -10,7 +10,6 @@ def movementAutomation():
   cursor.countdown(5)
 
   while True:
-
     x1 = random.randint(0, x)
     y1 = random.randint(0, y)
 
